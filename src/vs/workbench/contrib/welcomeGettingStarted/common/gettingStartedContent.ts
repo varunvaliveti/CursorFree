@@ -236,8 +236,8 @@ function createCopilotSetupStep(id: string, button: string, when: string, includ
 export const walkthroughs: GettingStartedWalkthroughContent = [
 	{
 		id: 'Setup',
-		title: localize('gettingStarted.setup.title', "Get Started with VS Code"),
-		description: localize('gettingStarted.setup.description', "Customize your editor, learn the basics, and start coding"),
+		title: localize('gettingStarted.setup.title', "Get Started with a Better VS Code"),
+		description: localize('gettingStarted.setup.description', "You will need to login to ChatGPT"),
 		isFeatured: true,
 		icon: setupIcon,
 		when: '!isWeb',
